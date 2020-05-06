@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Developed by Max Pesin. Learned from Jonas Schmedtmann.">
+        <meta name="author" content="Max Pesin">
+        <meta property="og:title" content="Dice Game | Max Pesin">
+        <meta property="og:description" content="Developed by Max Pesin. Learned from Jonas Schmedtmann.">
+        <meta property="og:image" content="https://maxpesin.com/_assets/img/showcase-dice-game.jpg">
+        <meta property="og:url" content="https://maxpesin.com/portfolio/dice-game/">
+        <link rel="icon" type="image/png" href="https://maxpesin.com/_assets/img/favicon_32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://maxpesin.com/_assets/img/favicon_16x16.png" sizes="16x16">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="canonical" href="https://maxpesin.com/portfolio/dice-game/">
+        <!--[if lt IE9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]-->
+        <title>Dice Game | Max Pesin</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New Game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll Dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <input type="text" placeholder="Enter score limit" class="final-score">
+            <img src="_assets/dice-5.png" alt="Dice" class="dice" id="dice-1">
+            <img src="_assets/dice-5.png" alt="Dice" class="dice" id="dice-2">
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
